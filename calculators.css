@@ -75,7 +75,7 @@
   
   button:hover{
     animation-name: button_animation;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-iteration-count: 1;
     scale:1.25;
   }
