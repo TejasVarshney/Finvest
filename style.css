@@ -33,26 +33,30 @@ ul {
   list-style: none;
 }
 
-/* Style header */
 header {
-  background-color: black; /* Updated to black */
+  background-color: black;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 30px;
 }
 
 #nav_right {
-  display: flex;
-  justify-content: flex-start;
+  display: inline;
+  float: right;
 }
 
 #nav_left {
-  display: flex;
-  justify-content: flex-end;
+  display: inline;
+  float: left;
 }
 
 nav li {
+  display: inline;
   color : white;
-  margin: 0 10px;
+  margin: 10px 10px;
+}
+
+nav{
+  display: inline;
 }
 
 /* Style main content */
