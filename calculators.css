@@ -6,6 +6,13 @@
     color: black;
   }
   
+  .row{
+    flex : 0 1 auto;
+  }
+  .column{
+    flex : 0 1 auto
+  }
+
   .block {
     display: grid;
     margin : 10px auto;
@@ -14,6 +21,7 @@
   
   /* Set global styles */
   body {
+    min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     color: #333;
@@ -57,19 +65,30 @@
   
   /* Style main content */
   main {
-    max-width: 800px;
+    max-width: 1000px;
     margin : 0 auto;
     padding: 40px 20px;
+    min-height: 63.5vh;
   }
-  
+
+  section{
+    display: flexbox;
+    justify-content: space-evenly;
+    padding-left: 25px;
+  }
+
   button {  
     background-color: #ffffff;
     color: #000000;
-    border: none;
+    display: inline-flex;
+    justify-content: flex-start;
+    border : 2px solid black;
+    border-radius: 25%;
+    padding: 5px;
     margin: 5px;
     transition: background-color 0.3s ease;
     font-size: 15px;
-    height : 50px;
+    height : auto;
     width : 200px;
   }
   
@@ -90,6 +109,7 @@
   
   /* Style footer */
   footer {
+    vertical-align: bottom;
     background-color: black; /* Updated to black */
     padding: 20px;
     margin-top: 40px;
@@ -110,4 +130,5 @@
   .icon{
     height: 50px;
     width: 50px;
+    padding: 2px;
   }

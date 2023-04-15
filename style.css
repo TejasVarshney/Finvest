@@ -6,6 +6,11 @@
   color: black;
 }
 
+div{
+  display: flex;
+  flex-flow: column;
+}
+
 .block {
   display: grid;
   margin : 10px auto;
