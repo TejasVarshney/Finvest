@@ -46,14 +46,14 @@ header {
 }
 
 nav li {
-  display: inline;
   color : white;
   margin: 10px 10px;
   flex-direction: row;  
 }
 
-nav ul{
-  display: inline;
+nav ul {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Style main content */
