@@ -23,6 +23,7 @@ body {
 a {
   color: #ffffff;
   text-decoration: none;
+  margin:5px;
 }
 
 a:hover {
@@ -39,23 +40,14 @@ header {
   padding: 30px;
 }
 
-#nav_right {
-  display: inline;
-  float: right;
-}
-
-#nav_left {
-  display: inline;
-  float: left;
-}
-
 nav li {
   display: inline;
   color : white;
   margin: 10px 10px;
+  flex-direction: row;  
 }
 
-nav{
+nav ul{
   display: inline;
 }
 
@@ -75,6 +67,15 @@ h1 {
   margin-bottom: 30px;
   padding : 10px;
   border: 5px solid black;
+}
+
+li button { 
+  height: 30px;
+  width: 100px;
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  border-radius: 50;
 }
 
 button {
